@@ -13,10 +13,9 @@ function Cart() {
       .catch(error => console.error("Error fetching data:", error));
   }, []);
 
-  // Function to cut text to 25 words
   const cutText = text => {
     const words = text.split("");
-    if (words.length > 17) {
+    if (words.length > 16) {
       return words.slice(0, 16).join("") + "...";
     }
     return text;

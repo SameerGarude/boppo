@@ -40,15 +40,15 @@
 
         button {
           position: absolute;
-          bottom: 15px;
+          bottom: 8px;
           right: 20px;
           background-color: #006ce4;
           color: white;
           border: none;
-          padding: 10px 10px;
+          padding: 10px 15px;
           font-weight: bold;
           cursor: pointer;
-          border-radius: 5px;
+          // border-radius: 5px;
         }
         button:hover {
           background-color: #014fa8;
@@ -59,17 +59,59 @@
 
   // for mobile device
 
-  @media screen and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     .container {
       grid-template-columns: repeat(1, 1fr);
+
+      .data {
+        height: max-content;
+        .top {
+          text-align: center;
+          img {
+            width: 75%;
+            height: 75%;
+          }
+        }
+        .bottom {
+          // position: relative;
+          text-align: center;
+          margin-top: 10px;
+
+          button {
+            position: relative;
+            margin: 5px 0px 0px 35px;
+          }
+        }
+      }
     }
   }
 
   //for tablet
 
-  @media screen and (min-width: 481px) and (max-width: 900px) {
+  @media only screen and (min-width: 481px) and (max-width: 900px) {
     .container {
       grid-template-columns: repeat(3, 1fr);
+
+      .data {
+        height: max-content;
+        .top {
+          text-align: center;
+          img {
+            width: 75%;
+            height: 75%;
+          }
+        }
+        .bottom {
+          // position: relative;
+          text-align: center;
+          margin-top: 10px;
+
+          button {
+            position: relative;
+            margin: 5px 0px 0px 35px;
+          }
+        }
+      }
     }
   }
 }

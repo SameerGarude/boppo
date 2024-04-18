@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/boppo/static/css/main.a81207d3.css",
-    "main.js": "/boppo/static/js/main.c7ffeadd.js",
+    "main.css": "/boppo/static/css/main.a8213313.css",
+    "main.js": "/boppo/static/js/main.6a058a5a.js",
     "index.html": "/boppo/index.html",
-    "main.a81207d3.css.map": "/boppo/static/css/main.a81207d3.css.map",
-    "main.c7ffeadd.js.map": "/boppo/static/js/main.c7ffeadd.js.map"
+    "main.a8213313.css.map": "/boppo/static/css/main.a8213313.css.map",
+    "main.6a058a5a.js.map": "/boppo/static/js/main.6a058a5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81207d3.css",
-    "static/js/main.c7ffeadd.js"
+    "static/css/main.a8213313.css",
+    "static/js/main.6a058a5a.js"
   ]
 }

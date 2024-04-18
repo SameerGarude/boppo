@@ -6,7 +6,6 @@ import Cart from "./cart/Cart";
 function App() {
   return (
     <div className="App">
-      {/* <Task /> */}
       <Cart />
     </div>
   );
